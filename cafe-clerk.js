@@ -32,5 +32,6 @@ if (Meteor.isClient) {
 if (Meteor.isServer) {
   Meteor.startup(function () {
     // code to run on server at startup
+    Kadira.connect('RTi6ELMA72hyDwXcz', '96986865-9bf2-4deb-bbe5-9d2e35e34809');
   });
 }
