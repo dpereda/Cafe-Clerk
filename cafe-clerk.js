@@ -6,7 +6,7 @@ if (Meteor.isClient) {
 
   Template.body.helpers({
     alertz: function () {
-      return Alertz.find().fetch().reverse();
+      return Alertz.find({}).fetch().reverse();
     }
   });
 

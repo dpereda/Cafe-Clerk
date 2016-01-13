@@ -7,19 +7,44 @@
 autopublish
 insecure
 twbs:bootstrap
-underscore
-standard-minifiers
-meteor-base
-mobile-experience
-mongo
-blaze-html-templates
-session
-jquery
-tracker
-logging
-reload
-random
-ejson
-spacebars
-check
 meteorhacks:kadira
+meteor-base             # Packages every Meteor app needs to have
+mobile-experience       # Packages for a great mobile UX
+mongo                   # The database Meteor supports right now
+blaze-html-templates    # Compile .html files into Meteor Blaze views
+session                 # Client-side reactive dictionary for your app
+jquery                  # Helpful client-side library
+tracker                 # Meteor's client-side reactive programming library
+
+standard-minifiers      # JS/CSS minifiers run for production mode
+es5-shim                # ECMAScript 5 compatibility for older browsers.
+ecmascript              # Enable ECMAScript2015+ syntax in app code
+
+kadira:flow-router
+kadira:blaze-layout
+erasaur:meteor-lodash
+stolinski:stylus-multi
+fortawesome:fontawesome
+spiderable
+fastclick
+dburles:collection-helpers
+raix:handlebar-helpers
+aldeed:collection2
+aldeed:autoform
+accounts-ui
+# accounts-google
+# accounts-facebook
+# accounts-github
+accounts-password
+# accounts-twitter
+matb33:bootstrap-glyphicons
+zimme:active-route
+gwendall:auth-client-callbacks
+meteortoys:allthings
+check
+http
+random
+momentjs:moment
+datariot:ganalytics
+reactive-var
+
