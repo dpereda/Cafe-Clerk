@@ -8,7 +8,6 @@ autopublish
 insecure
 twbs:bootstrap
 underscore
-standard-minifiers
 meteor-base
 mobile-experience
 mongo
@@ -23,3 +22,5 @@ ejson
 spacebars
 check
 meteorhacks:kadira
+standard-minifier-css
+standard-minifier-js
